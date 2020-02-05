@@ -3,18 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38830FE3313A06C9F7EEC3E9 /* Pods_Stilista_StilistaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB42E5752C51B56EAF1F8F04 /* Pods_Stilista_StilistaUITests.framework */; };
+		41096DA023D15635005A9240 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41096D9F23D15635005A9240 /* NavBar.swift */; };
+		41096DA423D15A3C005A9240 /* JobCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41096DA323D15A3C005A9240 /* JobCollectionView.swift */; };
+		41096DA823D15AD2005A9240 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41096DA723D15AD2005A9240 /* JobCell.swift */; };
+		41096DAC23D15F16005A9240 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41096DAB23D15F16005A9240 /* Job.swift */; };
+		41096DB223D1943A005A9240 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41096DB123D1943A005A9240 /* MainViewController.swift */; };
+		4126FD3D23D2A0200005C9B5 /* AcceptDeclineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD3C23D2A0200005C9B5 /* AcceptDeclineView.swift */; };
+		4126FD4123D2C18A0005C9B5 /* SettingsSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD4023D2C18A0005C9B5 /* SettingsSideBar.swift */; };
+		4126FD4323D2E3030005C9B5 /* Stylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD4223D2E3030005C9B5 /* Stylist.swift */; };
+		4126FD4723D2E5470005C9B5 /* StylistsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD4623D2E5470005C9B5 /* StylistsCollectionView.swift */; };
+		4126FD4923D2E5940005C9B5 /* StylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD4823D2E5940005C9B5 /* StylistCell.swift */; };
+		4126FD4F23D416080005C9B5 /* StylistDashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD4E23D416080005C9B5 /* StylistDashBoardView.swift */; };
+		4126FD5223D4171F0005C9B5 /* TopProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD5123D4171F0005C9B5 /* TopProfileView.swift */; };
+		4126FD5823D4F3CE0005C9B5 /* StylistProfileBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD5723D4F3CE0005C9B5 /* StylistProfileBottomView.swift */; };
+		4126FD5A23D4F41F0005C9B5 /* MapAndPhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD5923D4F41F0005C9B5 /* MapAndPhotoGalleryView.swift */; };
+		4126FD5C23D55CDC0005C9B5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD5B23D55CDC0005C9B5 /* MapView.swift */; };
+		4126FD5E23D591880005C9B5 /* StylistButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126FD5D23D591880005C9B5 /* StylistButtons.swift */; };
+		412716E023D69CC9004C3DE8 /* FirebaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412716DF23D69CC9004C3DE8 /* FirebaseStorage.swift */; };
+		412716E323D6A6B1004C3DE8 /* RegisterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412716E223D6A6B1004C3DE8 /* RegisterLocationView.swift */; };
+		412716E523D6BC55004C3DE8 /* ProfileUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412716E423D6BC55004C3DE8 /* ProfileUploadView.swift */; };
+		4160B9EA23E7F1CA00D65F07 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160B9E923E7F1CA00D65F07 /* AppointmentsViewController.swift */; };
+		4160B9EC23E7F21600D65F07 /* PostedReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160B9EB23E7F21600D65F07 /* PostedReviewsViewController.swift */; };
+		416E244023E326A00027FE19 /* ReviewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E243F23E326A00027FE19 /* ReviewCollectionView.swift */; };
+		416E244423E3314F0027FE19 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E244323E3314F0027FE19 /* ReviewCell.swift */; };
+		416E244623E33D980027FE19 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E244523E33D980027FE19 /* Rating.swift */; };
+		4170B70423E38E9A0054757C /* RateStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170B70323E38E9A0054757C /* RateStylistViewController.swift */; };
+		4170B70623E3999B0054757C /* RatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170B70523E3999B0054757C /* RatingModel.swift */; };
+		4170B70823E3CBFE0054757C /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4170B70723E3CBFE0054757C /* EditProfileViewController.swift */; };
 		4179E82123CF7B3A0012FA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E82023CF7B3A0012FA5B /* AppDelegate.swift */; };
-		4179E82323CF7B3A0012FA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E82223CF7B3A0012FA5B /* ViewController.swift */; };
-		4179E82623CF7B3A0012FA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4179E82423CF7B3A0012FA5B /* Main.storyboard */; };
 		4179E82923CF7B3A0012FA5B /* Stilista.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4179E82723CF7B3A0012FA5B /* Stilista.xcdatamodeld */; };
 		4179E82B23CF7B3B0012FA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4179E82A23CF7B3B0012FA5B /* Assets.xcassets */; };
 		4179E82E23CF7B3B0012FA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4179E82C23CF7B3B0012FA5B /* LaunchScreen.storyboard */; };
 		4179E83923CF7B3B0012FA5B /* StilistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E83823CF7B3B0012FA5B /* StilistaTests.swift */; };
 		4179E84423CF7B3C0012FA5B /* StilistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E84323CF7B3C0012FA5B /* StilistaUITests.swift */; };
+		4179E85423CF7C660012FA5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E85323CF7C660012FA5B /* LoginViewController.swift */; };
+		4179E85623CF8A3E0012FA5B /* LoginInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E85523CF8A3E0012FA5B /* LoginInputView.swift */; };
+		4179E85A23CF8FD70012FA5B /* StilistaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E85923CF8FD70012FA5B /* StilistaApi.swift */; };
+		4179E85D23CFA7BD0012FA5B /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E85C23CFA7BD0012FA5B /* UserSession.swift */; };
+		4179E86123CFAD410012FA5B /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179E86023CFAD410012FA5B /* KeyChainHelper.swift */; };
+		418DAB6223E9393C00DA6CC8 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DAB6123E9393C00DA6CC8 /* AppointmentCell.swift */; };
+		41ACAD4723D95DFF00A08AAC /* ClientDashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAD4623D95DFF00A08AAC /* ClientDashBoard.swift */; };
+		41ACAD4923D979A400A08AAC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAD4823D979A400A08AAC /* Client.swift */; };
+		41ACAD4B23DAB7A600A08AAC /* UpdateClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAD4A23DAB7A600A08AAC /* UpdateClientInfoView.swift */; };
+		41ACAD4D23DB808900A08AAC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAD4C23DB808900A08AAC /* RatingView.swift */; };
+		41ACAD4F23DBF46D00A08AAC /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAD4E23DBF46D00A08AAC /* PictureViewController.swift */; };
+		41ACAD5123DE4BCC00A08AAC /* RequestAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACAD5023DE4BCC00A08AAC /* RequestAppointmentViewController.swift */; };
+		41D584E323D5AB9800F45939 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D584E223D5AB9800F45939 /* RegisterViewController.swift */; };
+		41D584E523D5AC0300F45939 /* RegisterInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D584E423D5AC0300F45939 /* RegisterInputView.swift */; };
+		41D584E723D6988600F45939 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41D584E623D6988600F45939 /* GoogleService-Info.plist */; };
+		79191B2C2D035B627DFA5665 /* Pods_Stilista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E917494C48FD6D733D9A4AE5 /* Pods_Stilista.framework */; };
+		8EF2599DF3DF892206BEE190 /* Pods_StilistaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C7BB3AB3BBD570F3B269BA /* Pods_StilistaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +78,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C7BB3AB3BBD570F3B269BA /* Pods_StilistaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StilistaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C0F37F3DB8D37DA61FB950 /* Pods-StilistaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StilistaTests.release.xcconfig"; path = "Target Support Files/Pods-StilistaTests/Pods-StilistaTests.release.xcconfig"; sourceTree = "<group>"; };
+		22DE6CFF8E05028F3DDAB33C /* Pods-Stilista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stilista.debug.xcconfig"; path = "Target Support Files/Pods-Stilista/Pods-Stilista.debug.xcconfig"; sourceTree = "<group>"; };
+		41096D9F23D15635005A9240 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		41096DA323D15A3C005A9240 /* JobCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCollectionView.swift; sourceTree = "<group>"; };
+		41096DA723D15AD2005A9240 /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		41096DAB23D15F16005A9240 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		41096DB123D1943A005A9240 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4126FD3C23D2A0200005C9B5 /* AcceptDeclineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptDeclineView.swift; sourceTree = "<group>"; };
+		4126FD4023D2C18A0005C9B5 /* SettingsSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSideBar.swift; sourceTree = "<group>"; };
+		4126FD4223D2E3030005C9B5 /* Stylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylist.swift; sourceTree = "<group>"; };
+		4126FD4623D2E5470005C9B5 /* StylistsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistsCollectionView.swift; sourceTree = "<group>"; };
+		4126FD4823D2E5940005C9B5 /* StylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistCell.swift; sourceTree = "<group>"; };
+		4126FD4E23D416080005C9B5 /* StylistDashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistDashBoardView.swift; sourceTree = "<group>"; };
+		4126FD5123D4171F0005C9B5 /* TopProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopProfileView.swift; sourceTree = "<group>"; };
+		4126FD5723D4F3CE0005C9B5 /* StylistProfileBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistProfileBottomView.swift; sourceTree = "<group>"; };
+		4126FD5923D4F41F0005C9B5 /* MapAndPhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAndPhotoGalleryView.swift; sourceTree = "<group>"; };
+		4126FD5B23D55CDC0005C9B5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4126FD5D23D591880005C9B5 /* StylistButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistButtons.swift; sourceTree = "<group>"; };
+		412716DF23D69CC9004C3DE8 /* FirebaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorage.swift; sourceTree = "<group>"; };
+		412716E223D6A6B1004C3DE8 /* RegisterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLocationView.swift; sourceTree = "<group>"; };
+		412716E423D6BC55004C3DE8 /* ProfileUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUploadView.swift; sourceTree = "<group>"; };
+		4160B9E923E7F1CA00D65F07 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		4160B9EB23E7F21600D65F07 /* PostedReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostedReviewsViewController.swift; sourceTree = "<group>"; };
+		416E243F23E326A00027FE19 /* ReviewCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCollectionView.swift; sourceTree = "<group>"; };
+		416E244323E3314F0027FE19 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		416E244523E33D980027FE19 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		4170B70323E38E9A0054757C /* RateStylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateStylistViewController.swift; sourceTree = "<group>"; };
+		4170B70523E3999B0054757C /* RatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingModel.swift; sourceTree = "<group>"; };
+		4170B70723E3CBFE0054757C /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		4179E81D23CF7B3A0012FA5B /* Stilista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stilista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4179E82023CF7B3A0012FA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4179E82223CF7B3A0012FA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4179E82523CF7B3A0012FA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4179E82823CF7B3A0012FA5B /* Stilista.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stilista.xcdatamodel; sourceTree = "<group>"; };
 		4179E82A23CF7B3B0012FA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4179E82D23CF7B3B0012FA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +120,27 @@
 		4179E83F23CF7B3B0012FA5B /* StilistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StilistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4179E84323CF7B3C0012FA5B /* StilistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StilistaUITests.swift; sourceTree = "<group>"; };
 		4179E84523CF7B3C0012FA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4179E85323CF7C660012FA5B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4179E85523CF8A3E0012FA5B /* LoginInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputView.swift; sourceTree = "<group>"; };
+		4179E85923CF8FD70012FA5B /* StilistaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StilistaApi.swift; sourceTree = "<group>"; };
+		4179E85C23CFA7BD0012FA5B /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		4179E86023CFAD410012FA5B /* KeyChainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
+		418DAB6123E9393C00DA6CC8 /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		41ACAD4623D95DFF00A08AAC /* ClientDashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDashBoard.swift; sourceTree = "<group>"; };
+		41ACAD4823D979A400A08AAC /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		41ACAD4A23DAB7A600A08AAC /* UpdateClientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateClientInfoView.swift; sourceTree = "<group>"; };
+		41ACAD4C23DB808900A08AAC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		41ACAD4E23DBF46D00A08AAC /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		41ACAD5023DE4BCC00A08AAC /* RequestAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAppointmentViewController.swift; sourceTree = "<group>"; };
+		41D584E223D5AB9800F45939 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		41D584E423D5AC0300F45939 /* RegisterInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInputView.swift; sourceTree = "<group>"; };
+		41D584E623D6988600F45939 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5819EEACFFDDDA935376389C /* Pods-Stilista-StilistaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stilista-StilistaUITests.release.xcconfig"; path = "Target Support Files/Pods-Stilista-StilistaUITests/Pods-Stilista-StilistaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DAA27AF91CAA0A966255560 /* Pods-StilistaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StilistaTests.debug.xcconfig"; path = "Target Support Files/Pods-StilistaTests/Pods-StilistaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B8B8BCD573DA083552B27EF /* Pods-Stilista-StilistaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stilista-StilistaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Stilista-StilistaUITests/Pods-Stilista-StilistaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB42E5752C51B56EAF1F8F04 /* Pods_Stilista_StilistaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stilista_StilistaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E917494C48FD6D733D9A4AE5 /* Pods_Stilista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stilista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61BCF8BF404E9AE41219EF /* Pods-Stilista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stilista.release.xcconfig"; path = "Target Support Files/Pods-Stilista/Pods-Stilista.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79191B2C2D035B627DFA5665 /* Pods_Stilista.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF2599DF3DF892206BEE190 /* Pods_StilistaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +164,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38830FE3313A06C9F7EEC3E9 /* Pods_Stilista_StilistaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4126FD5023D416BD0005C9B5 /* StylistProfile */ = {
+			isa = PBXGroup;
+			children = (
+				41ACAD4C23DB808900A08AAC /* RatingView.swift */,
+				4126FD4E23D416080005C9B5 /* StylistDashBoardView.swift */,
+				4126FD5123D4171F0005C9B5 /* TopProfileView.swift */,
+				4126FD5723D4F3CE0005C9B5 /* StylistProfileBottomView.swift */,
+				4126FD5923D4F41F0005C9B5 /* MapAndPhotoGalleryView.swift */,
+				4126FD5D23D591880005C9B5 /* StylistButtons.swift */,
+				416E243F23E326A00027FE19 /* ReviewCollectionView.swift */,
+				416E244323E3314F0027FE19 /* ReviewCell.swift */,
+			);
+			path = StylistProfile;
+			sourceTree = "<group>";
+		};
+		412716E123D6A234004C3DE8 /* RegisterViews */ = {
+			isa = PBXGroup;
+			children = (
+				41D584E423D5AC0300F45939 /* RegisterInputView.swift */,
+				412716E223D6A6B1004C3DE8 /* RegisterLocationView.swift */,
+				412716E423D6BC55004C3DE8 /* ProfileUploadView.swift */,
+			);
+			path = RegisterViews;
+			sourceTree = "<group>";
+		};
 		4179E81423CF7B3A0012FA5B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +203,8 @@
 				4179E83723CF7B3B0012FA5B /* StilistaTests */,
 				4179E84223CF7B3C0012FA5B /* StilistaUITests */,
 				4179E81E23CF7B3A0012FA5B /* Products */,
+				AD5C9AEFEA882D5DEFC2D090 /* Pods */,
+				7394AA7526E48E8FB2664205 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +221,13 @@
 		4179E81F23CF7B3A0012FA5B /* Stilista */ = {
 			isa = PBXGroup;
 			children = (
-				4179E82023CF7B3A0012FA5B /* AppDelegate.swift */,
-				4179E82223CF7B3A0012FA5B /* ViewController.swift */,
-				4179E82423CF7B3A0012FA5B /* Main.storyboard */,
-				4179E82A23CF7B3B0012FA5B /* Assets.xcassets */,
-				4179E82C23CF7B3B0012FA5B /* LaunchScreen.storyboard */,
+				41D584E623D6988600F45939 /* GoogleService-Info.plist */,
+				4179E85B23CF8FE10012FA5B /* Models */,
+				4179E85823CF8FA10012FA5B /* ServiceWorkers */,
+				4179E85723CF8A460012FA5B /* Views */,
+				4179E85223CF7C510012FA5B /* ViewControllers */,
 				4179E82F23CF7B3B0012FA5B /* Info.plist */,
+				4179E85123CF7C330012FA5B /* SupportingFiles */,
 				4179E82723CF7B3A0012FA5B /* Stilista.xcdatamodeld */,
 			);
 			path = Stilista;
@@ -128,6 +251,107 @@
 			path = StilistaUITests;
 			sourceTree = "<group>";
 		};
+		4179E85123CF7C330012FA5B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4179E82023CF7B3A0012FA5B /* AppDelegate.swift */,
+				4179E82A23CF7B3B0012FA5B /* Assets.xcassets */,
+				4179E82C23CF7B3B0012FA5B /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4179E85223CF7C510012FA5B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41D584E223D5AB9800F45939 /* RegisterViewController.swift */,
+				4179E85323CF7C660012FA5B /* LoginViewController.swift */,
+				41096DB123D1943A005A9240 /* MainViewController.swift */,
+				41ACAD4E23DBF46D00A08AAC /* PictureViewController.swift */,
+				41ACAD5023DE4BCC00A08AAC /* RequestAppointmentViewController.swift */,
+				4170B70323E38E9A0054757C /* RateStylistViewController.swift */,
+				4170B70723E3CBFE0054757C /* EditProfileViewController.swift */,
+				4160B9E923E7F1CA00D65F07 /* AppointmentsViewController.swift */,
+				4160B9EB23E7F21600D65F07 /* PostedReviewsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4179E85723CF8A460012FA5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41ACAD4523D95DE700A08AAC /* ClientViews */,
+				412716E123D6A234004C3DE8 /* RegisterViews */,
+				4126FD5023D416BD0005C9B5 /* StylistProfile */,
+				41096D9F23D15635005A9240 /* NavBar.swift */,
+				4179E85523CF8A3E0012FA5B /* LoginInputView.swift */,
+				4126FD5B23D55CDC0005C9B5 /* MapView.swift */,
+				41096DA323D15A3C005A9240 /* JobCollectionView.swift */,
+				41096DA723D15AD2005A9240 /* JobCell.swift */,
+				4126FD4823D2E5940005C9B5 /* StylistCell.swift */,
+				4126FD4623D2E5470005C9B5 /* StylistsCollectionView.swift */,
+				4126FD3C23D2A0200005C9B5 /* AcceptDeclineView.swift */,
+				4126FD4023D2C18A0005C9B5 /* SettingsSideBar.swift */,
+				418DAB6123E9393C00DA6CC8 /* AppointmentCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4179E85823CF8FA10012FA5B /* ServiceWorkers */ = {
+			isa = PBXGroup;
+			children = (
+				4179E86023CFAD410012FA5B /* KeyChainHelper.swift */,
+				4179E85923CF8FD70012FA5B /* StilistaApi.swift */,
+				412716DF23D69CC9004C3DE8 /* FirebaseStorage.swift */,
+			);
+			path = ServiceWorkers;
+			sourceTree = "<group>";
+		};
+		4179E85B23CF8FE10012FA5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4179E85C23CFA7BD0012FA5B /* UserSession.swift */,
+				41096DAB23D15F16005A9240 /* Job.swift */,
+				4126FD4223D2E3030005C9B5 /* Stylist.swift */,
+				41ACAD4823D979A400A08AAC /* Client.swift */,
+				416E244523E33D980027FE19 /* Rating.swift */,
+				4170B70523E3999B0054757C /* RatingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41ACAD4523D95DE700A08AAC /* ClientViews */ = {
+			isa = PBXGroup;
+			children = (
+				41ACAD4623D95DFF00A08AAC /* ClientDashBoard.swift */,
+				41ACAD4A23DAB7A600A08AAC /* UpdateClientInfoView.swift */,
+			);
+			path = ClientViews;
+			sourceTree = "<group>";
+		};
+		7394AA7526E48E8FB2664205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E917494C48FD6D733D9A4AE5 /* Pods_Stilista.framework */,
+				DB42E5752C51B56EAF1F8F04 /* Pods_Stilista_StilistaUITests.framework */,
+				15C7BB3AB3BBD570F3B269BA /* Pods_StilistaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD5C9AEFEA882D5DEFC2D090 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22DE6CFF8E05028F3DDAB33C /* Pods-Stilista.debug.xcconfig */,
+				ED61BCF8BF404E9AE41219EF /* Pods-Stilista.release.xcconfig */,
+				7B8B8BCD573DA083552B27EF /* Pods-Stilista-StilistaUITests.debug.xcconfig */,
+				5819EEACFFDDDA935376389C /* Pods-Stilista-StilistaUITests.release.xcconfig */,
+				5DAA27AF91CAA0A966255560 /* Pods-StilistaTests.debug.xcconfig */,
+				17C0F37F3DB8D37DA61FB950 /* Pods-StilistaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4179E84823CF7B3C0012FA5B /* Build configuration list for PBXNativeTarget "Stilista" */;
 			buildPhases = (
+				E8E8D97AAABE1EBCF3B1213F /* [CP] Check Pods Manifest.lock */,
 				4179E81923CF7B3A0012FA5B /* Sources */,
 				4179E81A23CF7B3A0012FA5B /* Frameworks */,
 				4179E81B23CF7B3A0012FA5B /* Resources */,
+				6816457B97CF610487B0A13D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4179E84B23CF7B3C0012FA5B /* Build configuration list for PBXNativeTarget "StilistaTests" */;
 			buildPhases = (
+				467251146E7AA6C98BFA687D /* [CP] Check Pods Manifest.lock */,
 				4179E83023CF7B3B0012FA5B /* Sources */,
 				4179E83123CF7B3B0012FA5B /* Frameworks */,
 				4179E83223CF7B3B0012FA5B /* Resources */,
@@ -170,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4179E84E23CF7B3C0012FA5B /* Build configuration list for PBXNativeTarget "StilistaUITests" */;
 			buildPhases = (
+				C0D90ECC85BCE18D46B39F42 /* [CP] Check Pods Manifest.lock */,
 				4179E83B23CF7B3B0012FA5B /* Sources */,
 				4179E83C23CF7B3B0012FA5B /* Frameworks */,
 				4179E83D23CF7B3B0012FA5B /* Resources */,
+				337CAB29E112327378495D49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,8 +462,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4179E82E23CF7B3B0012FA5B /* LaunchScreen.storyboard in Resources */,
+				41D584E723D6988600F45939 /* GoogleService-Info.plist in Resources */,
 				4179E82B23CF7B3B0012FA5B /* Assets.xcassets in Resources */,
-				4179E82623CF7B3A0012FA5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +483,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		337CAB29E112327378495D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stilista-StilistaUITests/Pods-Stilista-StilistaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stilista-StilistaUITests/Pods-Stilista-StilistaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stilista-StilistaUITests/Pods-Stilista-StilistaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467251146E7AA6C98BFA687D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StilistaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6816457B97CF610487B0A13D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stilista/Pods-Stilista-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stilista/Pods-Stilista-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stilista/Pods-Stilista-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D90ECC85BCE18D46B39F42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stilista-StilistaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E8D97AAABE1EBCF3B1213F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stilista-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4179E81923CF7B3A0012FA5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4179E82323CF7B3A0012FA5B /* ViewController.swift in Sources */,
+				4160B9EA23E7F1CA00D65F07 /* AppointmentsViewController.swift in Sources */,
+				4126FD3D23D2A0200005C9B5 /* AcceptDeclineView.swift in Sources */,
+				41ACAD4723D95DFF00A08AAC /* ClientDashBoard.swift in Sources */,
+				4126FD5C23D55CDC0005C9B5 /* MapView.swift in Sources */,
+				4170B70623E3999B0054757C /* RatingModel.swift in Sources */,
+				4179E85423CF7C660012FA5B /* LoginViewController.swift in Sources */,
+				41ACAD4F23DBF46D00A08AAC /* PictureViewController.swift in Sources */,
+				41096DA023D15635005A9240 /* NavBar.swift in Sources */,
+				4126FD5823D4F3CE0005C9B5 /* StylistProfileBottomView.swift in Sources */,
+				4170B70823E3CBFE0054757C /* EditProfileViewController.swift in Sources */,
+				418DAB6223E9393C00DA6CC8 /* AppointmentCell.swift in Sources */,
+				41ACAD4923D979A400A08AAC /* Client.swift in Sources */,
 				4179E82123CF7B3A0012FA5B /* AppDelegate.swift in Sources */,
+				4179E86123CFAD410012FA5B /* KeyChainHelper.swift in Sources */,
+				416E244023E326A00027FE19 /* ReviewCollectionView.swift in Sources */,
+				4126FD4323D2E3030005C9B5 /* Stylist.swift in Sources */,
+				4126FD4723D2E5470005C9B5 /* StylistsCollectionView.swift in Sources */,
+				41ACAD4D23DB808900A08AAC /* RatingView.swift in Sources */,
+				412716E523D6BC55004C3DE8 /* ProfileUploadView.swift in Sources */,
+				4179E85A23CF8FD70012FA5B /* StilistaApi.swift in Sources */,
+				41ACAD5123DE4BCC00A08AAC /* RequestAppointmentViewController.swift in Sources */,
+				4179E85D23CFA7BD0012FA5B /* UserSession.swift in Sources */,
+				41096DA823D15AD2005A9240 /* JobCell.swift in Sources */,
+				416E244423E3314F0027FE19 /* ReviewCell.swift in Sources */,
+				4126FD5E23D591880005C9B5 /* StylistButtons.swift in Sources */,
+				41ACAD4B23DAB7A600A08AAC /* UpdateClientInfoView.swift in Sources */,
+				4126FD5A23D4F41F0005C9B5 /* MapAndPhotoGalleryView.swift in Sources */,
+				4126FD4123D2C18A0005C9B5 /* SettingsSideBar.swift in Sources */,
+				41096DAC23D15F16005A9240 /* Job.swift in Sources */,
+				41096DB223D1943A005A9240 /* MainViewController.swift in Sources */,
+				412716E023D69CC9004C3DE8 /* FirebaseStorage.swift in Sources */,
+				4126FD5223D4171F0005C9B5 /* TopProfileView.swift in Sources */,
+				4126FD4F23D416080005C9B5 /* StylistDashBoardView.swift in Sources */,
+				41D584E523D5AC0300F45939 /* RegisterInputView.swift in Sources */,
+				4160B9EC23E7F21600D65F07 /* PostedReviewsViewController.swift in Sources */,
+				4126FD4923D2E5940005C9B5 /* StylistCell.swift in Sources */,
 				4179E82923CF7B3A0012FA5B /* Stilista.xcdatamodeld in Sources */,
+				416E244623E33D980027FE19 /* Rating.swift in Sources */,
+				4170B70423E38E9A0054757C /* RateStylistViewController.swift in Sources */,
+				41D584E323D5AB9800F45939 /* RegisterViewController.swift in Sources */,
+				41096DA423D15A3C005A9240 /* JobCollectionView.swift in Sources */,
+				4179E85623CF8A3E0012FA5B /* LoginInputView.swift in Sources */,
+				412716E323D6A6B1004C3DE8 /* RegisterLocationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +669,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4179E82423CF7B3A0012FA5B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4179E82523CF7B3A0012FA5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4179E82C23CF7B3B0012FA5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +798,7 @@
 		};
 		4179E84923CF7B3C0012FA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DE6CFF8E05028F3DDAB33C /* Pods-Stilista.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +817,7 @@
 		};
 		4179E84A23CF7B3C0012FA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED61BCF8BF404E9AE41219EF /* Pods-Stilista.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +836,7 @@
 		};
 		4179E84C23CF7B3C0012FA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DAA27AF91CAA0A966255560 /* Pods-StilistaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +858,7 @@
 		};
 		4179E84D23CF7B3C0012FA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C0F37F3DB8D37DA61FB950 /* Pods-StilistaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +880,7 @@
 		};
 		4179E84F23CF7B3C0012FA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8B8BCD573DA083552B27EF /* Pods-Stilista-StilistaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +901,7 @@
 		};
 		4179E85023CF7B3C0012FA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5819EEACFFDDDA935376389C /* Pods-Stilista-StilistaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
