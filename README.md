@@ -1,7 +1,7 @@
 # Stilista
 An iOS application to search for hair stylists and to search for clients.
 
-### Why did I build an already existing app? 
+### Why I created the App?
 
 Stilista compares your location with nearby users to create a list of hair stylists that are filtered by the distance you choose. 
 Stilista also shows the exact location of the stylist that you wish to meet and allows you request an appointment. 
