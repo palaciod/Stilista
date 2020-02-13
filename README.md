@@ -32,7 +32,8 @@ A user can sign up as a client or a hair stylist. After an appointment clients c
 3. Allow clients to post and delete reviews.
 4. Allow stylists to accept and decline jobs.
 5. A rating system for stylists.
-6. Users can upload profile pictures. 
+6. Users can upload profile pictures.
+7. Shows the exact location of the stylists in MapKit
 
 
 
