@@ -54,10 +54,10 @@ A user can sign up as a client or a hair stylist. After an appointment clients c
     width="200"/> 
     
     
-<img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 14.31.03.png"
+<img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 16.49.30.png"
     alt="home"
     style="float: left; margin-right: 10px;"
-    width="200"/> <img src="E2984B95-DD55-489B-A18A-FBEDE3DC9BF4.png"
+    width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 14.39.18.png"
     alt="home"
     style="float: left; margin-right:10px;"
     width="200"/>
