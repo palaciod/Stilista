@@ -58,4 +58,5 @@ A user can sign up as a client or a hair stylist. After an appointment clients c
     style="float: left; margin-right: 10px;"
     width="200"/> <img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 16.49.30.png"
     alt="home"
+    style="float: left; margin-right: 10px;"/>
     
