@@ -39,4 +39,16 @@ A user can sign up as a client or a hair stylist. After an appointment clients c
 
 #### Below are some screenshots of the app
 
-    
+<img src="Simulator Screen Shot - iPhone Xs - 2020-02-13 at 14.31.03.png"
+    alt="home"
+    style="float: left; margin-right: 10px;"
+    width="200"/> <img src="E2984B95-DD55-489B-A18A-FBEDE3DC9BF4.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/> <img src="55285962-B2ED-409B-A59E-5024976AAFE9.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/> <img src="92385483-8D0E-48A3-B2DC-DFE60134BE51.png"
+    alt="home"
+    style="float: left; margin-right:10px;"
+    width="200"/> 
