@@ -7,21 +7,7 @@ Stilista compares your location with nearby users to create a list of hair styli
 Stilista also shows the exact location of the stylist that you wish to meet and allows you request an appointment. 
 A user can sign up as a client or a hair stylist. After an appointment clients can also leave reviews on hair stylists. *Note Map-Kit does not work at all in the iPhone simulator.
 
-## Technologies: 
-1. MapKit
-2. Firebase Storage
-3. Heroku
-4. KingFisher
-5. Passport.js
-6. Cookie-storage
-7. Cookie-parser
-8. Body-parser
-9. MongoDB
-10. Mongoose
-11. Node.js
-12. Express
-13. Bcrypt.js
-14. Passport.js
+
 
 ## Languages: 
 1. Swift
